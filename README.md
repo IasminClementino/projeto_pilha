@@ -1,18 +1,38 @@
-## Getting Started
+## Projeto Pilha
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é uma implementação simples de uma estrutura de dados do tipo pilha, desenvolvida para uma apresentação escolar. Ele demonstra os conceitos básicos de manipulação de pilhas em Java.
 
-## Folder Structure
+## Estrutura do Projeto
 
-The workspace contains two folders by default, where:
+O projeto está organizado da seguinte forma:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: Contém os arquivos de código-fonte Java.
+- `lib`: Destinado a dependências externas, caso necessário.
+- `bin`: Diretório onde os arquivos compilados serão gerados.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Como Executar
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Certifique-se de ter o Java Development Kit (JDK) instalado em sua máquina.
+2. Clone este repositório em sua máquina local.
+3. Abra o projeto em um editor como o Visual Studio Code.
+4. Compile e execute o arquivo `App.java` localizado na pasta `src`.
 
-## Dependency Management
+## Objetivo
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O objetivo deste projeto é ilustrar como uma pilha funciona, incluindo operações como:
+
+- Empilhar (push)
+- Desempilhar (pop)
+- Verificar o elemento no topo (peek)
+
+## Personalização
+
+Se desejar alterar a estrutura de pastas ou adicionar dependências, edite o arquivo `.vscode/settings.json` conforme necessário.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## Licença
+
+Este projeto é apenas para fins educacionais e não possui uma licença específica.
