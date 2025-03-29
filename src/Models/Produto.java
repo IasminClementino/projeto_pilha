@@ -1,4 +1,4 @@
-package Entidades;
+package Models;
 
 public class Produto {
     private int id;
