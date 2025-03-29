@@ -1,10 +1,10 @@
 package interfaces;
 
-import models.Produto;
 import java.util.List;
+import models.Produto;
 
-public interface ProdutoServices {
-    // Interface para os serviços de produto, que define os métodos que devem ser implementados
+public interface IProdutoRepository  {
+    // Interface para o repositório de produtos, que define os métodos que devem ser implementados
 
     public void addProduto(Produto produto);
 
