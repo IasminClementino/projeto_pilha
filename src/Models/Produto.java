@@ -1,14 +1,14 @@
-package Models;
+package models;
 
 public class Produto {
     private int id;
-    private String nome;
-    private double preco;
+    private String name;
+    private double price;
 
-    public Produto(int id, String nome, double preco) {
+    public Produto(int id, String name, double price) {
         this.id = id;
-        this.nome = nome;
-        this.preco = preco;
+        this.name = name;
+        this.price = price;
     }
 
     public int getId() {
@@ -19,23 +19,26 @@ public class Produto {
         this.id = id;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public double getPreco() {
-        return preco;
+    public double getprice() {
+        return price;
     }
 
-    public void setPreco(double preco) {
-        this.preco = preco;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
+    @Override
     public String toString() {
-    return "ID: " +  getId() + "\nNome: " + getNome() + "\nPreço: " + getPreco();
+        return "ID: " + getId() + 
+               "\nNome: " + getName() + 
+               "\nPreço: " + getprice();
     }
 }
